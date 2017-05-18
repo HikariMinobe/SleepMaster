@@ -1,0 +1,193 @@
+* {
+    
+    margin: 0 auto;
+    padding: 0;
+    color: #111;
+}
+
+.content {
+    width: 900px;
+    padding-top: 130px;
+    position: relative;
+    z-index: -1;
+}
+
+.header {
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h4{
+    margin-top: 50px;
+}
+
+
+
+.col-3{
+    width:900px;
+    height:250px;
+    margin-bottom:50px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.col-1{
+    width:300px;
+    height:200px;
+    float: left;
+    overflow: hidden;
+}
+
+.raiden{
+    background-image: url(raidenpink.jpg);
+    background-size:300px 175px;
+}
+
+.super{
+    background-image: url(raiden.jpg);
+    background-size: 300px 230px;
+    
+}
+
+.nanda{
+    background-image: url(nandakuro.jpg);
+    background-size: 295px 175px;
+}
+
+.col-2{
+    width:600px;
+    float: left;
+    overflow: hidden;
+}
+
+.text h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+}
+
+.text img{
+    width:300px;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+.text p{
+    width:600px;
+    float:left;
+    overflow: hidden;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #f8f8f8;
+    border-bottom: 3px solid rgb(118, 239, 155);
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropmenu:before, .dropmenu:after{
+    content:"";
+    display:table;
+}
+
+.dropmenu:after{
+    clear:both;
+}
+
+.dropmenu li{
+    position:relative;
+}
+
+.sm {
+    display: block;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f8f8f8;
+    color: #111;
+    width: 100px;
+    margin-left: 10%;
+    margin-right: 60%;
+    z-index: 2;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    padding-top: 30px;
+    background-color: #f8f8f8;
+    color: #111;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.dropmenu li ul{
+    list-style: none;
+    position: absolute;
+    z-index:999;
+    top:80px;
+    left:84.7%;
+}
+
+.dropmenu li ul li{
+    width:100%;
+    overflow: hidden;
+    height:0;
+    transition: 1s;
+}
+
+.dropmenu li ul li a{
+    background:#f8f8f8;
+}
+
+.dropmenu li:hover ul li{
+    overflow: visible;
+    height:60px;
+}
+
+.dropmenu li ul li a:hover{
+    background-color: rgba(118, 239, 155,0.7);
+    transition: 1s;
+}
+
+
+nav a:hover {
+    background-color: rgba(118, 239, 155,0.7);
+    transition: 1s;
+}
+
+nav {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+
+.footer {
+    width: 900px;
+    height: 70px;
+    padding-top: 40px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+}
